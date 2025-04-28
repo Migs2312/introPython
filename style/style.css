@@ -7,10 +7,6 @@ h1, h2, h3{
     width: 0px;
 }
 
-html{
-    overflow-y: hidden;
-}
-
 body{
     background-image: url("images/background.jpg");
     background-size: cover;
