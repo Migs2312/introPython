@@ -1,0 +1,32 @@
+@keyframes content_change {
+    50% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: rgba(255, 255, 255, 0.863);
+    }
+}
+
+@keyframes opacity_change {
+    100% {
+        opacity: 90%;
+    }
+}
+@keyframes iZ {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes opacity_zero {
+    50% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}

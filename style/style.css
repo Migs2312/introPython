@@ -1,0 +1,112 @@
+@import url(animation.css);
+h1, h2, h3{
+    margin:0px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+html{
+    overflow-y: hidden;
+}
+
+body{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    margin:0px;
+    padding:20px;
+}
+.sideways{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#buttons{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    width: fit-content;
+    height:200px;
+    margin:20px;
+}
+
+#content{
+    border: 2px black solid;
+    border-radius: 20px;
+    width:50%;
+    height:550px;
+    overflow-y:scroll;
+    padding: 10px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    background-color: rgba(255, 255, 255, 0.863);
+}
+
+.button{
+    width:300px;
+    height:fit-content;
+    padding:2px;
+    margin:10px;
+    border-radius: 10px;
+    border: 2px black solid;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.content_change{
+    animation: content_change 1s linear;
+}
+.opacity_zero {
+    animation: opacity_zero 1s forwards;
+}
+.iZ {
+    animation: iZ 0.78s linear;
+}
+
+.opacity_change {
+    animation: opacity_change 0.1s linear;
+}
+
+img{
+    border:2px black solid;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+#dev{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:5px;
+    padding:2px;
+    position: fixed;
+    right:5px;
+    bottom:5px;
+}
+#devImg{
+    padding:2px;
+    background-color: white;
+    border-radius: 50px;
+}
+#devName{
+    opacity: 0%;
+    padding:7px;
+    margin:5px;
+    border-radius: 20px;
+    background-color: rgba(57, 0, 83, 0.774);
+}
