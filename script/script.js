@@ -31,13 +31,13 @@ function cont(parameter){
         case "install":
             t = "<h1>Instalação</h1><br>"
             c1 = "<h2>Antes de instalar o python, é importante verificar se o python já está instalado.<br>Isso pode ser visto nas configurações do computador.</h2>"
-            i1 = "<img src='style/images/install/config.png' class='iZ' width='500px' height='250px'><br>"
+            i1 = "<img src='style/images/install/config.png' class='iZ' width='400px' height='200px'><br>"
             c2 = "<h2>Se o python já estiver instalado, é recomendado desinstalar a versão atual e instalar a versão mais nova.</h2><br>"
-            i2 = "<img src='style/images/install/configApps.png' class='iZ' width='500px' height='250px'><br>"
+            i2 = "<img src='style/images/install/configApps.png' class='iZ' width='400px' height='200px'><br>"
             c3 = "<h2>Para instalar a versão mais atual do python é só entrar no site <a href='https://www.python.org/downloads/' class='iZ'>python.org</a>, e fazer o download.</h2><br>"
-            i3 = "<img src='style/images/install/pythonSite.png' class='iZ' width='500px' height='250px'><br>"
+            i3 = "<img src='style/images/install/pythonSite.png' class='iZ' width='400px' height='200px'><br>"
             c4 = "<h2>Após isso, basta iniciar o instalador e seguir os passos para instalar o python.</h2><br>"
-            i4 = "<img src='style/images/install/pythonInstaller.png' class='iZ' width='500px' height='250px'><br>"
+            i4 = "<img src='style/images/install/pythonInstaller.png' class='iZ' width='400px' height='200px'><br>"
 
             cnt = t+c1+c2+i1+i2+c3+i3+c4+i4
         break;
