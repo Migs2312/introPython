@@ -34,7 +34,7 @@ body{
 #content{
     border: 2px black solid;
     border-radius: 20px;
-    width:600px;
+    width:650px;
     height:550px;
     overflow-y:scroll;
     padding: 10px;
